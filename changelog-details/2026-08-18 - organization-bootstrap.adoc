@@ -1,0 +1,6 @@
+= Organization bootstrap
+:date: 2026-08-18
+
+Public SolidStart static site for Desktop Tooling: catalog of transferred OS utilities, a news item for the catalog opening, and a docs CTA to the Antora hub.
+
+Host is GitHub Pages at `desktop-tooling.github.io`. Cloudflare is out of scope.

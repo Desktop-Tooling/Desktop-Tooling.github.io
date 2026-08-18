@@ -1,0 +1,15 @@
+= Title and channel style
+:toc:
+
+== News
+
+Outward shared record. Sentence case. First-party items omit the org name.
+Prefer subject + present-tense verb.
+
+== Blog
+
+Inward thesis. No blog route until there is an essay.
+
+== Docs
+
+Antora topic titles are concept names.

@@ -1,0 +1,6 @@
+= Changelog
+
+== 2026-08-18 — Organization bootstrap
+
+* SolidStart static hub with catalog, news, and docs CTA. GitHub Pages only — no custom domain.
+* link:changelog-details/2026-08-18%20-%20organization-bootstrap.adoc[Details]

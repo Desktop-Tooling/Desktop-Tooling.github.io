@@ -1,0 +1,26 @@
+= Desktop Tooling site
+:toc:
+
+Public hub for link:https://github.com/Desktop-Tooling[Desktop-Tooling].
+
+* Site: https://desktop-tooling.github.io
+* Docs: https://desktop-tooling.github.io/docs/
+* Changelog: link:CHANGELOG.adoc[CHANGELOG.adoc]
+
+== Built With
+
+* Runtime — SolidStart (static preset), SolidJS
+* UI — solid-ui / Kobalte, Tailwind CSS
+* Host — GitHub Pages (no Cloudflare)
+
+== Local
+
+[source,shell]
+----
+pnpm install
+pnpm dev
+----
+
+== License
+
+Unless a nested file says otherwise, site source is MIT.
