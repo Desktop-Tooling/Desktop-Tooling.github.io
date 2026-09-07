@@ -1,0 +1,8 @@
+= 2026-09-07 — Thumbelina rebrand
+
+Product rename on the org site demos browser.
+
+== Changed
+
+* Demo id/paths `thumbelina`
+* Catalog and hub copy use the Thumbelina name

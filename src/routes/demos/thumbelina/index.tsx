@@ -5,15 +5,15 @@ import { DemoIdentity } from "~/components/DemoIdentity"
 import { findDemo } from "~/lib/demos"
 
 export default function ThumbdriveMultibootHub() {
-  const demo = () => findDemo("thumbdrive-multiboot")!
+  const demo = () => findDemo("thumbelina")!
 
   return (
     <main class="container py-12">
-      <Title>Thumbdrive Multiboot — Demos</Title>
+      <Title>Thumbelina — Demos</Title>
       <DemoIdentity
         crumbs={[
           { label: "Demos", href: "/demos/" },
-          { label: "Thumbdrive Multiboot" },
+          { label: "Thumbelina" },
         ]}
         repoUrl={demo().repoUrl}
       />

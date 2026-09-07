@@ -1,5 +1,10 @@
 = Changelog
 
+== 2026-09-07 — Thumbelina rebrand
+
+* Renamed demos desk and catalog entry from Thumbdrive Multiboot to Thumbelina.
+* link:changelog-details/2026-09-07%20-%20thumbelina-rebrand.adoc[Details]
+
 == 2026-09-07 â€” Thumbdrive Multiboot demos
 
 * Added a Demos browser and Thumbdrive Multiboot mode desk (live ISO, installed, both).
