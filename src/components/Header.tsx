@@ -11,6 +11,11 @@ export function Header() {
           <span class="font-semibold tracking-tight">{SITE_NAME}</span>
         </A>
         <nav class="ml-auto flex items-center gap-1">
+          <A href="/demos/">
+            <Button variant="ghost" size="sm">
+              Demos
+            </Button>
+          </A>
           <A href="/news">
             <Button variant="ghost" size="sm">
               News

@@ -29,6 +29,9 @@ export default function Home() {
           <a href={DOCS_URL}>
             <Button>Explore the docs »</Button>
           </a>
+          <A href="/demos/">
+            <Button variant="outline">Demos</Button>
+          </A>
           <A href="/news">
             <Button variant="outline">News</Button>
           </A>

@@ -35,4 +35,9 @@ export const catalog: CatalogItem[] = [
     href: "https://github.com/Desktop-Tooling/Desktop-Assistant-AI",
     blurb: "A desktop helper for when the next click is unclear.",
   },
+  {
+    name: "Thumbdrive-Multiboot",
+    href: "https://github.com/Desktop-Tooling/Thumbdrive-Multiboot",
+    blurb: "Multiboot USB sticks: live ISOs, thin Btrfs installs, or both.",
+  },
 ]

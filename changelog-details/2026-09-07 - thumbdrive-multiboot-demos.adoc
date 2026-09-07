@@ -1,0 +1,10 @@
+= 2026-09-07 — Thumbdrive Multiboot demos
+
+Wired the first product-idea desk into the Desktop Tooling site.
+
+== Added
+
+* `/demos/` browser
+* Thumbdrive Multiboot hub and three variant pages (live ISO, installed, both) with static partition mockups
+* Header and home CTAs for Demos
+* Catalog blurb for the new repository
