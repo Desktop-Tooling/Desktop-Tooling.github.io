@@ -8,5 +8,5 @@ export function cn(...inputs: ClassValue[]) {
 
 export const SITE_NAME = "Desktop Tooling"
 export const SITE_URL = "https://desktop-tooling.github.io"
-export const DOCS_URL = "https://desktop-tooling.github.io/docs/"
+export const DOCS_URL = "https://desktop-tooling.github.io/docs"
 export const GITHUB_ORG = "https://github.com/Desktop-Tooling"

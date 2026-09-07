@@ -26,7 +26,7 @@ export default function Home() {
           catalogs.
         </p>
         <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <a href={DOCS_URL}>
+          <a href={DOCS_URL} rel="external">
             <Button>Explore the docs »</Button>
           </a>
           <A href="/demos/">

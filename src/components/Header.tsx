@@ -21,7 +21,7 @@ export function Header() {
               News
             </Button>
           </A>
-          <a href={DOCS_URL}>
+          <a href={DOCS_URL} rel="external">
             <Button variant="ghost" size="sm">
               Docs
             </Button>

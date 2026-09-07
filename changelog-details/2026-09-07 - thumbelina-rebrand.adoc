@@ -1,4 +1,4 @@
-= 2026-09-07 — Thumbelina rebrand
+= 2026-09-07 -- Thumbelina rebrand
 
 Product rename on the org site demos browser.
 

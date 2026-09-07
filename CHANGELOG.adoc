@@ -4,6 +4,11 @@
 
 * Replaced the site logo and touch icon with the two-pane desktop window and hex-drive socket from the canonical org asset family.
 
+== 2026-09-07 -- Docs navigation fix
+
+* Made homepage and header docs links request the Antora site as a full browser document.
+* link:changelog-details/2026-09-07%20-%20docs-navigation-fix.adoc[Details]
+
 == 2026-09-07 -- Thumbelina rebrand
 
 * Renamed demos desk and catalog entry from Thumbdrive Multiboot to Thumbelina.

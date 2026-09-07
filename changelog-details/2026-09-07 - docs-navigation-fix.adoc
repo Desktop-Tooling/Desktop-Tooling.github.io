@@ -1,0 +1,8 @@
+= 2026-09-07 — Docs navigation fix
+
+The docs links now leave the SolidStart client router and load the separately deployed Antora site.
+
+== Fixed
+
+* Homepage and header docs links use the canonical `https://desktop-tooling.github.io/docs` URL.
+* `rel="external"` opts both same-origin links out of Solid Router interception and preserves native browser navigation.

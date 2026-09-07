@@ -4,7 +4,7 @@
 Public hub for link:https://github.com/Desktop-Tooling[Desktop-Tooling].
 
 * Site: https://desktop-tooling.github.io
-* Docs: https://desktop-tooling.github.io/docs/
+* Docs: https://desktop-tooling.github.io/docs
 * Changelog: link:CHANGELOG.adoc[CHANGELOG.adoc]
 
 == Built With
