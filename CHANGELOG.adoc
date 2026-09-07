@@ -1,17 +1,21 @@
 = Changelog
 
-== 2026-09-07 � Thumbelina rebrand
+== 2026-09-07 -- Brand mark redraw
+
+* Replaced the site logo and touch icon with the two-pane desktop window and hex-drive socket from the canonical org asset family.
+
+== 2026-09-07 -- Thumbelina rebrand
 
 * Renamed demos desk and catalog entry from Thumbdrive Multiboot to Thumbelina.
 * link:changelog-details/2026-09-07%20-%20thumbelina-rebrand.adoc[Details]
 
-== 2026-09-07 — Thumbdrive Multiboot demos
+== 2026-09-07 -- Thumbdrive Multiboot demos
 
 * Added a Demos browser and Thumbdrive Multiboot mode desk (live ISO, installed, both).
 * Catalog entry for Thumbdrive-Multiboot.
 * link:changelog-details/2026-09-07%20-%20thumbdrive-multiboot-demos.adoc[Details]
 
-== 2026-08-18 — Organization bootstrap
+== 2026-08-18 -- Organization bootstrap
 
-* SolidStart static hub with catalog, news, and docs CTA. GitHub Pages only — no custom domain.
+* SolidStart static hub with catalog, news, and docs CTA. GitHub Pages only -- no custom domain.
 * link:changelog-details/2026-08-18%20-%20organization-bootstrap.adoc[Details]
