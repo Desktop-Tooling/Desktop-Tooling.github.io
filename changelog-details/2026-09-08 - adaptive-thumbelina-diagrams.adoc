@@ -7,3 +7,4 @@ On the demo pages, the same-origin host sibling is sanitized and inserted only a
 The former fixed dark artwork remains beside each source as `name.legacy-fixed.svg`, with explicit scaling and text alternatives added without changing its colors or geometry.
 Repository scripts regenerate both output modes and CI verifies that committed artifacts remain fresh.
 Mermaid is launched through Node for reliable Windows execution and receives the repository's no-sandbox Puppeteer configuration for isolated Linux CI runners.
+Its platform-compatible font stack keeps generated geometry stable between Windows and Linux.
