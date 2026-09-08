@@ -4,5 +4,5 @@ The Live ISOs, Installed OSes, and Both partition layouts now have editable Merm
 Each public `name.svg` remains a standalone light/dark image for no-script and failed-load cases.
 On the demo pages, the same-origin host sibling is sanitized and inserted only after it loads successfully.
 
-The former fixed dark artwork remains beside each source as `name.legacy-fixed.svg`.
+The former fixed dark artwork remains beside each source as `name.legacy-fixed.svg`, with explicit scaling and text alternatives added without changing its colors or geometry.
 Repository scripts regenerate both output modes and CI verifies that committed artifacts remain fresh.

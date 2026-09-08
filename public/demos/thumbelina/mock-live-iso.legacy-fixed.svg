@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Live ISO layout">
+  <title>Live ISO partition layout</title>
+  <desc>An EFI system partition followed by a large exFAT area for ISO images and the service kit.</desc>
   <rect width="1122" height="585" fill="#1e1f22"/>
   <text x="48" y="64" fill="#c8c6c2" font-family="Segoe UI, sans-serif" font-size="28">Live ISOs</text>
   <text x="48" y="104" fill="#8a8780" font-family="Segoe UI, sans-serif" font-size="18">ESP + large exFAT (ISOs + service kit)</text>
