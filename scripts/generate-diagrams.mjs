@@ -9,6 +9,7 @@ const check = process.argv.includes("--check")
 const root = resolve(import.meta.dirname, "..")
 const diagramDir = join(root, "public", "demos", "thumbelina")
 const configPath = join(diagramDir, "mermaid-config.json")
+const puppeteerConfigPath = join(root, "scripts", "puppeteer-config.json")
 const diagrams = [
   { name: "mock-live-iso", legacy: "mock-live-iso.legacy-fixed.svg" },
   { name: "mock-installed", legacy: "mock-installed.legacy-fixed.svg" },
@@ -74,6 +75,8 @@ try {
         rawPath,
         "--configFile",
         configPath,
+        "--puppeteerConfigFile",
+        puppeteerConfigPath,
         "--backgroundColor",
         "transparent",
       ],
