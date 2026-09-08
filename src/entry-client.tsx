@@ -2,16 +2,12 @@
 import { mount, StartClient } from "@solidjs/start/client"
 import { upgradeThemedSvgImages } from "@dev-centr/themed-svg/runtime"
 
-export default function client() {
-  const dispose = mount(() => <StartClient />, document.getElementById("app")!)
-  const upgrade = () => upgradeThemedSvgImages()
-  queueMicrotask(upgrade)
+mount(() => <StartClient />, document.getElementById("app")!)
 
-  const observer = new MutationObserver(upgrade)
-  observer.observe(document.body, { childList: true, subtree: true })
+const upgrade = () => upgradeThemedSvgImages()
+queueMicrotask(upgrade)
 
-  return () => {
-    observer.disconnect()
-    dispose()
-  }
-}
+new MutationObserver(upgrade).observe(document.body, {
+  childList: true,
+  subtree: true,
+})
