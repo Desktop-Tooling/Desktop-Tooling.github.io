@@ -1,5 +1,11 @@
 = Changelog
 
+== 2026-09-08 -- Adaptive Thumbelina diagrams
+
+* Rebuilt the three partition-layout mockups from editable Mermaid sources with adaptive and host-themed SVG outputs.
+* Added progressive, sanitized runtime enhancement while retaining ordinary SVG image fallbacks.
+* link:changelog-details/2026-09-08%20-%20adaptive-thumbelina-diagrams.adoc[Details]
+
 == 2026-09-07 -- Brand mark redraw
 
 * Replaced the site logo and touch icon with the two-pane desktop window and hex-drive socket from the canonical org asset family.

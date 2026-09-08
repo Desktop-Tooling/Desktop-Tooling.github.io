@@ -26,6 +26,7 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
+      - run: pnpm diagrams:check
       - run: pnpm build
       - name: Stage Pages tree
         run: |

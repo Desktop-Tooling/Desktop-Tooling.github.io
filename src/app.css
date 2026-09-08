@@ -26,6 +26,28 @@
     --input: 210 16% 20%;
     --ring: 38 80% 56%;
     --radius: 0.5rem;
+    --themed-svg-thumbelina-live-iso-color-canvas: #1e1f22;
+    --themed-svg-thumbelina-live-iso-color-partition-esp: #5277a6;
+    --themed-svg-thumbelina-live-iso-color-partition-esp-border: #86a9d2;
+    --themed-svg-thumbelina-live-iso-color-partition-exfat: #117b5b;
+    --themed-svg-thumbelina-live-iso-color-partition-exfat-border: #61c49f;
+    --themed-svg-thumbelina-live-iso-color-text-on-partition: #ffffff;
+    --themed-svg-thumbelina-installed-color-canvas: #1e1f22;
+    --themed-svg-thumbelina-installed-color-partition-esp: #5277a6;
+    --themed-svg-thumbelina-installed-color-partition-esp-border: #86a9d2;
+    --themed-svg-thumbelina-installed-color-partition-exfat: #117b5b;
+    --themed-svg-thumbelina-installed-color-partition-exfat-border: #61c49f;
+    --themed-svg-thumbelina-installed-color-partition-btrfs: #b74d24;
+    --themed-svg-thumbelina-installed-color-partition-btrfs-border: #f09a72;
+    --themed-svg-thumbelina-installed-color-text-on-partition: #ffffff;
+    --themed-svg-thumbelina-both-color-canvas: #1e1f22;
+    --themed-svg-thumbelina-both-color-partition-esp: #5277a6;
+    --themed-svg-thumbelina-both-color-partition-esp-border: #86a9d2;
+    --themed-svg-thumbelina-both-color-partition-exfat: #117b5b;
+    --themed-svg-thumbelina-both-color-partition-exfat-border: #61c49f;
+    --themed-svg-thumbelina-both-color-partition-btrfs: #b74d24;
+    --themed-svg-thumbelina-both-color-partition-btrfs-border: #f09a72;
+    --themed-svg-thumbelina-both-color-text-on-partition: #ffffff;
   }
 
   * {

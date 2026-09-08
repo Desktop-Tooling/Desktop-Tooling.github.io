@@ -1,0 +1,14 @@
+flowchart LR
+  accTitle: Live ISO partition layout
+  accDescr: A small EFI system partition followed by a large exFAT drop zone for live ISO images and the service kit.
+
+  ESP[ESP - FAT32]
+  DROP[exFAT drop zone - ISOs + service kit]
+  ESP --- DROP
+
+  classDef esp fill:#3d5a80,stroke:#27415f,color:#eef2f7,stroke-width:2px;
+  classDef exfat fill:#0b6e4f,stroke:#07543d,color:#eef7f2,stroke-width:2px;
+  classDef hiddenEdge stroke:transparent,color:transparent;
+  class ESP esp;
+  class DROP exfat;
+  linkStyle 0 stroke:transparent;

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1122" height="585" viewBox="0 0 1122 585" role="img" aria-label="Installed layout">
+  <rect width="1122" height="585" fill="#1e1f22"/>
+  <text x="48" y="64" fill="#c8c6c2" font-family="Segoe UI, sans-serif" font-size="28">Installed OSes</text>
+  <text x="48" y="104" fill="#8a8780" font-family="Segoe UI, sans-serif" font-size="18">ESP + service exFAT + Btrfs pool</text>
+  <rect x="48" y="220" width="140" height="96" rx="12" fill="#3d5a80"/>
+  <text x="118" y="276" text-anchor="middle" fill="#eef2f7" font-family="Segoe UI, sans-serif" font-size="22">ESP</text>
+  <rect x="204" y="220" width="200" height="96" rx="12" fill="#0b6e4f"/>
+  <text x="304" y="276" text-anchor="middle" fill="#eef7f2" font-family="Segoe UI, sans-serif" font-size="20">Service</text>
+  <rect x="420" y="220" width="654" height="96" rx="12" fill="#9a3412"/>
+  <text x="747" y="276" text-anchor="middle" fill="#fff7ed" font-family="Segoe UI, sans-serif" font-size="22">Btrfs pool (subvolumes)</text>
+  <text x="48" y="400" fill="#8a8780" font-family="Consolas, monospace" font-size="16">Windows sees service volume only; installs stay on Btrfs</text>
+</svg>

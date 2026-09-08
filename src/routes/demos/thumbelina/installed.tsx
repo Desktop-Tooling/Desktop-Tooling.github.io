@@ -28,6 +28,7 @@ export default function InstalledVariant() {
         <img
           src={variant().mockSrc}
           alt={variant().mockAlt}
+          data-themed-svg
           width={1122}
           height={585}
           class="aspect-[1122/585] w-full rounded-lg border border-border bg-muted"

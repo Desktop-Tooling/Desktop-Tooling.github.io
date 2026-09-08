@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "namespace": "thumbelina-installed",
+  "source": { "kind": "mermaid", "uri": "mock-installed.mmd", "generator": "@mermaid-js/mermaid-cli" },
+  "tokens": [
+    { "id": "color.canvas" },
+    { "id": "color.partition.esp" },
+    { "id": "color.partition.esp-border" },
+    { "id": "color.partition.exfat" },
+    { "id": "color.partition.exfat-border" },
+    { "id": "color.partition.btrfs" },
+    { "id": "color.partition.btrfs-border" },
+    { "id": "color.text.on-partition" }
+  ],
+  "defaultPreset": "thumbelina",
+  "presets": {
+    "thumbelina": {
+      "color.canvas": "#f8fafc",
+      "color.partition.esp": "#3d5a80",
+      "color.partition.esp-border": "#27415f",
+      "color.partition.exfat": "#0b6e4f",
+      "color.partition.exfat-border": "#07543d",
+      "color.partition.btrfs": "#9a3412",
+      "color.partition.btrfs-border": "#76270d",
+      "color.text.on-partition": "#ffffff"
+    }
+  },
+  "paletteOverrides": {
+    "dark": {
+      "color.canvas": "#1e1f22",
+      "color.partition.esp": "#5277a6",
+      "color.partition.esp-border": "#86a9d2",
+      "color.partition.exfat": "#117b5b",
+      "color.partition.exfat-border": "#61c49f",
+      "color.partition.btrfs": "#b74d24",
+      "color.partition.btrfs-border": "#f09a72",
+      "color.text.on-partition": "#ffffff"
+    }
+  },
+  "bindings": [
+    { "kind": "inline-style", "selector": "svg", "property": "background-color", "token": "color.canvas" },
+    { "kind": "stylesheet", "selector": "#my-svg .esp rect", "property": "fill", "token": "color.partition.esp" },
+    { "kind": "stylesheet", "selector": "#my-svg .esp rect", "property": "stroke", "token": "color.partition.esp-border" },
+    { "kind": "stylesheet", "selector": "#my-svg .esp tspan", "property": "fill", "token": "color.text.on-partition" },
+    { "kind": "stylesheet", "selector": "#my-svg .exfat rect", "property": "fill", "token": "color.partition.exfat" },
+    { "kind": "stylesheet", "selector": "#my-svg .exfat rect", "property": "stroke", "token": "color.partition.exfat-border" },
+    { "kind": "stylesheet", "selector": "#my-svg .exfat tspan", "property": "fill", "token": "color.text.on-partition" },
+    { "kind": "stylesheet", "selector": "#my-svg .btrfs rect", "property": "fill", "token": "color.partition.btrfs" },
+    { "kind": "stylesheet", "selector": "#my-svg .btrfs rect", "property": "stroke", "token": "color.partition.btrfs-border" },
+    { "kind": "stylesheet", "selector": "#my-svg .btrfs tspan", "property": "fill", "token": "color.text.on-partition" }
+  ],
+  "fallback": { "unresolvedToken": "error", "missingTarget": "error" }
+}

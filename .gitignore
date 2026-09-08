@@ -20,6 +20,8 @@
 !src/**
 !public/
 !public/**
+!scripts/
+!scripts/**
 !.github/
 !.github/**
 !.nojekyll
@@ -36,3 +38,4 @@ dist/
 dist/**
 MEMORIES.md
 **/MEMORIES.md
+**/*.raw.svg

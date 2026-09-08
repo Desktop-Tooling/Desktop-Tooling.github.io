@@ -1,0 +1,16 @@
+flowchart LR
+  accTitle: Installed operating systems partition layout
+  accDescr: An EFI system partition and a small exFAT service volume precede a larger Btrfs pool containing installed operating system subvolumes.
+
+  ESP[ESP - FAT32]
+  SERVICE[Service - exFAT]
+  BTRFS[Btrfs pool - OS subvolumes]
+  ESP --- SERVICE --- BTRFS
+
+  classDef esp fill:#3d5a80,stroke:#27415f,color:#eef2f7,stroke-width:2px;
+  classDef exfat fill:#0b6e4f,stroke:#07543d,color:#eef7f2,stroke-width:2px;
+  classDef btrfs fill:#9a3412,stroke:#76270d,color:#fff7ed,stroke-width:2px;
+  class ESP esp;
+  class SERVICE exfat;
+  class BTRFS btrfs;
+  linkStyle 0,1 stroke:transparent;

@@ -34,6 +34,7 @@ export default function ThumbdriveMultibootHub() {
               <img
                 src={v.mockSrc}
                 alt={v.mockAlt}
+                data-themed-svg
                 width={1122}
                 height={585}
                 class="pointer-events-none aspect-[1122/585] w-full rounded-md bg-muted object-cover"

@@ -1,0 +1,12 @@
+{
+  "theme": "base",
+  "flowchart": {
+    "htmlLabels": false,
+    "curve": "linear",
+    "nodeSpacing": 20,
+    "rankSpacing": 28
+  },
+  "themeVariables": {
+    "fontFamily": "Segoe UI, ui-sans-serif, sans-serif"
+  }
+}
