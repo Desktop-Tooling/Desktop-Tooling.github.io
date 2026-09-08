@@ -16,6 +16,8 @@
 !tailwind.config.cjs
 !ui.config.json
 !dprint.jsonc
+!scripts/
+!scripts/**
 !src/
 !src/**
 !public/
