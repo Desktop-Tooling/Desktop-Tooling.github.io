@@ -26,6 +26,8 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
+      - name: Install Mermaid browser
+        run: pnpm exec puppeteer browsers install chrome-headless-shell
       - run: pnpm diagrams:check
       - run: pnpm build
       - name: Stage Pages tree
