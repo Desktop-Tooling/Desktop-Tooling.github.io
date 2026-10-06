@@ -41,3 +41,5 @@ dist/**
 MEMORIES.md
 **/MEMORIES.md
 **/*.raw.svg
+!/.editorconfig
+!/.gitattributes
