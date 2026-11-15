@@ -1,11 +1,22 @@
 = Desktop Tooling site
-:toc:
+:toc: macro
+:toc-title:
+:toclevels: 2
 
 Public hub for link:https://github.com/Desktop-Tooling[Desktop-Tooling].
 
 * Site: https://desktop-tooling.github.io
 * Docs: https://desktop-tooling.github.io/docs
 * Changelog: link:CHANGELOG.adoc[CHANGELOG.adoc]
+
+++++
+<details>
+<summary>Table of Contents</summary>
+++++
+toc::[]
+++++
+</details>
+++++
 
 == Built With
 
